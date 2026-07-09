@@ -1,0 +1,6 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lianor geometric mark">
+  <rect width="160" height="160" rx="80" fill="#0E2F2F"/>
+  <path d="M80 24L118.5 46.25V90.75L80 113L41.5 90.75V46.25L80 24Z" stroke="#FBFAF7" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M80 47L99 58V80L80 91L61 80V58L80 47Z" fill="#FBFAF7"/>
+  <path d="M80 113V137" stroke="#FBFAF7" stroke-width="7" stroke-linecap="round"/>
+</svg>
