@@ -3,43 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lianor - Inglese per hospitality, ristorazione e accoglienza a Genova</title>
-  <meta name="description" content="Lianor offre percorsi di inglese pratico e su misura per strutture ricettive, ristoranti e team dell'accoglienza a Genova e in Liguria.">
+  <title>Lianor - Inglese per hospitality, ristorazione e accoglienza</title>
+  <meta name="description" content="Lianor offre percorsi di inglese pratico e su misura per strutture ricettive, ristoranti e team dell'accoglienza. Con base a Genova.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://lianor.it/">
-
   <meta property="og:title" content="Lianor">
-  <meta property="og:description" content="Inglese pratico e su misura per strutture ricettive, ristoranti e team dell'accoglienza a Genova e in Liguria.">
+  <meta property="og:description" content="Inglese pratico e su misura per strutture ricettive, ristoranti e team dell'accoglienza. Con base a Genova.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lianor.it/">
   <meta property="og:image" content="https://lianor.it/social-preview.png">
-
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 
   <style>
     :root {
-      --ink: #061f3f;
-      --muted: #5c6470;
-      --paper: #f7f3ed;
+      --ink: #061f3d;
+      --muted: #596674;
+      --paper: #f8f4ed;
       --line: #d8d0c4;
-      --accent: #061f3f;
-      --accent-2: #0a2d57;
-      --soft: #ebe3d7;
+      --accent: #062b54;
+      --accent-2: #0b3768;
+      --soft: #eee7dc;
       --white: #ffffff;
-      --shadow: 0 22px 58px rgba(6, 31, 63, 0.11);
+      --shadow: 0 22px 58px rgba(6, 31, 61, 0.12);
     }
 
     body {
       font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
-        radial-gradient(circle at top right, rgba(6, 31, 63, 0.12), transparent 34rem),
-        linear-gradient(180deg, #fbf8f2 0%, #f3eee6 100%);
+        radial-gradient(circle at top right, rgba(6, 43, 84, 0.12), transparent 34rem),
+        linear-gradient(180deg, #fbf8f2 0%, #f6f1e8 100%);
     }
 
     h1,
@@ -48,65 +46,41 @@
     .quote p,
     .email-link {
       font-family: "Cormorant Garamond", Georgia, serif;
-    }
-
-    h1 {
-      font-size: clamp(2.9rem, 7.2vw, 5.9rem);
-      line-height: 0.94;
-      letter-spacing: -0.045em;
-    }
-
-    h2 {
-      font-size: clamp(2rem, 3.9vw, 4rem);
-      line-height: 1;
+      font-weight: 500;
       letter-spacing: -0.035em;
     }
 
+    h1 {
+      font-size: clamp(3rem, 7vw, 6.1rem);
+      line-height: 0.94;
+    }
+
+    h2 {
+      font-size: clamp(2.1rem, 4vw, 4.1rem);
+      line-height: 1;
+    }
+
     h3 {
-      font-size: 1.42rem;
-      letter-spacing: -0.015em;
+      font-size: 1.5rem;
+      line-height: 1.08;
     }
 
-    .lead {
-      font-size: clamp(1rem, 1.65vw, 1.18rem);
-      margin-top: 24px;
+    .brand {
+      gap: 14px;
     }
 
-    .hero {
-      margin: 52px auto 24px;
-      min-height: 500px;
-      gap: 42px;
+    .brand-text {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.82rem;
+      font-weight: 500;
+      text-transform: lowercase;
+      letter-spacing: 0.18em;
+      color: var(--accent);
     }
 
-    .section {
-      padding: 76px 0;
-    }
-
-    .service-card {
-      min-height: 260px;
-      padding: 26px;
-    }
-
-    .number {
-      margin-bottom: 42px;
-    }
-
-    .hero-card {
-      min-height: 360px;
-    }
-
-    .hero-card ul {
-      font-size: 1.28rem;
-    }
-
-    .quote {
-      padding: 42px;
-    }
-
-    .quote p {
-      font-size: clamp(1.9rem, 3.6vw, 3.6rem);
-      line-height: 0.98;
-      letter-spacing: -0.04em;
+    .mark {
+      width: 38px;
+      height: 38px;
     }
 
     .mark img {
@@ -116,49 +90,119 @@
       object-fit: contain;
     }
 
-    .brand-text {
-      font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: 1.18rem;
-      font-weight: 600;
-      letter-spacing: 0.11em;
-      color: var(--ink);
-    }
-
     .nav,
     .eyebrow,
     .button,
     .card-label,
     .number,
+    .footer,
     .service-card p,
     .prose p,
     .contact p,
-    .credential-list p,
-    .footer {
+    .credential-list p {
       font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .site-header {
+      padding: 20px 0;
+    }
+
+    .hero {
+      margin: 52px auto 28px;
+      min-height: 500px;
+      gap: 42px;
+    }
+
+    .lead {
+      margin-top: 24px;
+      max-width: 660px;
+    }
+
+    .hero-actions {
+      margin-top: 30px;
+    }
+
+    .hero-card {
+      min-height: 360px;
+      padding: 32px;
+    }
+
+    .card-label {
+      margin-bottom: 68px;
+    }
+
+    .hero-card ul {
+      font-size: 1.32rem;
+      gap: 15px;
+    }
+
+    .section {
+      padding: 78px 0;
+    }
+
+    .section-heading {
+      margin-bottom: 30px;
+    }
+
+    .service-card {
+      min-height: 270px;
+      padding: 26px;
+    }
+
+    .number {
+      margin-bottom: 46px;
+    }
+
+    .split {
+      gap: 46px;
+    }
+
+    .quote {
+      padding: 40px;
+    }
+
+    .quote p {
+      font-size: clamp(1.9rem, 3.6vw, 3.6rem);
+    }
+
+    .email-link {
+      font-size: clamp(2rem, 4.6vw, 4.3rem);
     }
 
     @media (max-width: 900px) {
       .hero {
-        margin-top: 34px;
+        margin-top: 36px;
         min-height: auto;
-      }
-
-      .section {
-        padding: 64px 0;
       }
 
       .hero-card {
         min-height: 300px;
       }
+
+      .number {
+        margin-bottom: 34px;
+      }
     }
 
     @media (max-width: 640px) {
+      .brand-text {
+        font-size: 1.55rem;
+      }
+
+      .hero {
+        margin-top: 22px;
+      }
+
       h1 {
-        font-size: clamp(2.85rem, 15vw, 4.6rem);
+        font-size: clamp(3rem, 15vw, 4.7rem);
       }
 
       .section {
-        padding: 58px 0;
+        padding: 60px 0;
+      }
+
+      .quote {
+        padding: 28px;
       }
     }
   </style>
@@ -170,7 +214,7 @@
       <span class="mark" aria-hidden="true">
         <img src="assets/logo.svg" alt="">
       </span>
-      <span class="brand-text">Lianor</span>
+      <span class="brand-text">lianor</span>
     </a>
     <nav class="nav" aria-label="Navigazione principale">
       <a href="#services">Servizi</a>
@@ -182,10 +226,10 @@
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Inglese per hospitality e ristorazione</p>
+        <p class="eyebrow">Inglese pratico per hospitality e ristorazione</p>
         <h1>Formazione linguistica su misura per accogliere meglio gli ospiti internazionali.</h1>
         <p class="lead">
-          Lianor supporta strutture ricettive, ristoranti e team a contatto con il pubblico nella gestione dell'inglese quotidiano: accoglienza, richieste, procedure, reclami e comunicazione con clienti stranieri.
+          Con base a Genova, Lianor aiuta strutture ricettive, ristoranti e team a contatto con il pubblico a gestire con più sicurezza le interazioni in inglese: accoglienza, richieste, procedure, reclami e comunicazione quotidiana con clienti stranieri.
         </p>
         <div class="hero-actions">
           <a class="button primary" href="mailto:info@lianor.it?subject=Richiesta%20informazioni%20Lianor">Richiedi informazioni</a>
@@ -206,7 +250,7 @@
     <section id="services" class="section">
       <div class="section-heading">
         <p class="eyebrow">Cosa offre Lianor</p>
-        <h2>Tre percorsi concreti per il lavoro reale.</h2>
+        <h2>Tre percorsi concreti, pensati per il lavoro reale.</h2>
       </div>
 
       <div class="grid three">
@@ -214,7 +258,7 @@
           <span class="number">01</span>
           <h3>Inglese per strutture ricettive</h3>
           <p>
-            Percorsi pratici per hotel, B&B, residence e strutture extra-alberghiere: check-in, check-out, servizi, indicazioni, richieste frequenti e comunicazione con l'ospite straniero.
+            Percorsi pratici per hotel, B&B, residence e strutture extra-alberghiere: check-in, check-out, informazioni sui servizi, richieste degli ospiti, indicazioni e situazioni ricorrenti.
           </p>
         </article>
 
@@ -222,15 +266,15 @@
           <span class="number">02</span>
           <h3>Inglese per ristoranti e sala</h3>
           <p>
-            Formazione mirata per ristoranti, bar e team di sala: accoglienza, menù, allergie e intolleranze, prenotazioni, richieste particolari e gestione del servizio.
+            Formazione mirata per ristoranti, bar e team di sala: accoglienza, menù, allergie e intolleranze, prenotazioni, richieste particolari e interazioni con clientela internazionale.
           </p>
         </article>
 
         <article class="service-card">
           <span class="number">03</span>
-          <h3>Reclami e service recovery</h3>
+          <h3>Reclami, procedure e service recovery</h3>
           <p>
-            Attività su misura per conversazioni delicate: problemi con camere o tavoli, incomprensioni, lamentele, scuse, soluzioni alternative e comunicazione sotto pressione.
+            Attività su misura per gestire conversazioni delicate: problemi con camere o tavoli, incomprensioni, lamentele, scuse, soluzioni alternative e comunicazione sotto pressione.
           </p>
         </article>
       </div>
@@ -239,14 +283,14 @@
     <section id="approach" class="section split">
       <div>
         <p class="eyebrow">Il metodo</p>
-        <h2>Lingua semplice, situazioni vere, risultati utilizzabili subito.</h2>
+        <h2>Lingua semplice. Situazioni vere. Risultati utilizzabili subito.</h2>
       </div>
       <div class="prose">
         <p>
-          Lianor parte da un principio essenziale: il personale non deve “sapere tutto l'inglese”. Deve saper gestire con chiarezza, sicurezza e cortesia le situazioni che incontra davvero sul lavoro.
+          Il personale non ha bisogno di “sapere tutto l'inglese”. Ha bisogno di saper gestire con chiarezza, sicurezza e cortesia le situazioni che incontra davvero sul lavoro.
         </p>
         <p>
-          Ogni percorso viene costruito intorno al contesto della struttura: tipo di clientela, mansioni del team, livello di partenza, procedure interne e interazioni più frequenti.
+          Ogni percorso viene costruito intorno al contesto della struttura: tipo di clientela, mansioni del team, livello di partenza, procedure interne e interazioni più frequenti con ospiti internazionali.
         </p>
       </div>
     </section>
@@ -258,8 +302,8 @@
         </p>
       </div>
       <div class="credential-list" aria-label="Esperienza rilevante">
-        <p>Lianor nasce a Genova e lavora con un approccio discreto, pratico e orientato al servizio.</p>
-        <p>Il progetto si fonda su esperienza in formazione linguistica, comunicazione interculturale, assessment e project management.</p>
+        <p>Un progetto fondato su esperienza in formazione linguistica, comunicazione interculturale, assessment e project management.</p>
+        <p>Attualmente in fase di sviluppo e avvio operativo a Genova.</p>
       </div>
     </section>
 
@@ -268,7 +312,7 @@
         <p class="eyebrow">Contatti</p>
         <h2>Partiamo da una richiesta semplice.</h2>
         <p>
-          Per informazioni, collaborazioni o una prima conversazione sul percorso più adatto alla tua struttura a Genova o in Liguria, scrivi a:
+          Per informazioni, collaborazioni o una prima conversazione sul percorso più adatto alla tua struttura, scrivi a:
         </p>
       </div>
       <a class="email-link" href="mailto:info@lianor.it?subject=Richiesta%20informazioni%20Lianor">info@lianor.it</a>
@@ -277,7 +321,7 @@
 
   <footer class="footer">
     <p>© <span id="year">2026</span> Lianor. Tutti i diritti riservati.</p>
-    <p class="footer-note">Inglese per hospitality, ristorazione e accoglienza.</p>
+    <p class="footer-note">Inglese per hospitality, ristorazione e accoglienza - Genova.</p>
   </footer>
 
   <script>
