@@ -229,10 +229,10 @@ h3 {
 }
 
 .card-label {
-  margin: 0 auto 48px;
+  margin: 0 auto 6px;
   color: var(--muted);
   font-size: clamp(0.82rem, 1vw, 1rem);
-  line-height: 3.2;
+  line-height: 1.9;
   text-align: center;
 }
 
@@ -372,6 +372,10 @@ h3 {
   display: grid;
   gap: 24px;
   font-size: 1.08rem;
+}
+
+.credential-list p + p {
+  margin-top: 0;
 }
 
 /* ================================
