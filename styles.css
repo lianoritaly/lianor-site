@@ -103,8 +103,8 @@ h3 {
 
 .eyebrow {
   margin: 0 0 18px;
-  font-size: 0.72rem;
-  color: var(--accent);
+  font-size: 0.82rem;
+  color: var(--muted);
   letter-spacing: 0.17em;
 }
 
@@ -151,11 +151,10 @@ h3 {
 
 .brand-text {
   font-family: var(--font-serif);
-  font-size: 1.82rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: var(--accent);
-  text-transform: lowercase;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.05em;
 }
 
 .mark {
@@ -340,8 +339,8 @@ h3 {
   margin-bottom: 46px;
   display: inline-block;
   color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 800;
+  font-size: 0.88rem;
+  font-weight: 700;
 }
 
 /* ================================
