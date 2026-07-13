@@ -3,16 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Lianor - Inglese per hospitality, ristorazione e accoglienza</title>
   <meta name="description" content="Lianor offre percorsi di inglese pratico e su misura per strutture ricettive, ristoranti e team dell'accoglienza. Con base a Genova.">
   <meta name="robots" content="index, follow">
+
   <link rel="canonical" href="https://lianor.it/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
   <meta property="og:title" content="Lianor">
   <meta property="og:description" content="Inglese pratico e su misura per strutture ricettive, ristoranti e team dell'accoglienza. Con base a Genova.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lianor.it/">
   <meta property="og:image" content="https://lianor.it/social-preview.png">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,22 +25,22 @@
 
   <style>
     :root {
-      --ink: #061f3d;
-      --muted: #596674;
-      --paper: #f8f4ed;
-      --line: #d8d0c4;
-      --accent: #062b54;
-      --accent-2: #0b3768;
-      --soft: #eee7dc;
-      --white: #ffffff;
+      --ink: #071b34;
+      --muted: #5f6f80;
+      --paper: #f5f1e8;
+      --line: #c9c0b2;
+      --accent: #041f3f;
+      --accent-2: #08315f;
+      --soft: #e8e1d5;
+      --white: #fffdf8;
       --shadow: 0 22px 58px rgba(6, 31, 61, 0.12);
     }
 
     body {
       font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
-        radial-gradient(circle at top right, rgba(6, 43, 84, 0.12), transparent 34rem),
-        linear-gradient(180deg, #fbf8f2 0%, #f6f1e8 100%);
+        radial-gradient(circle at top right, rgba(8, 16, 91, 0.326), transparent 34rem),
+        linear-gradient(180deg, #f4ede1 0%, #dfe5ec 100%);
     }
 
     h1,
@@ -65,6 +68,23 @@
       line-height: 1.08;
     }
 
+    .nav,
+    .eyebrow,
+    .button,
+    .card-label,
+    .number,
+    .footer,
+    .service-card p,
+    .prose p,
+    .contact p,
+    .credential-list p {
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .site-header {
+      padding: 20px 0;
+    }
+
     .brand {
       gap: 14px;
     }
@@ -88,23 +108,6 @@
       height: 38px;
       display: block;
       object-fit: contain;
-    }
-
-    .nav,
-    .eyebrow,
-    .button,
-    .card-label,
-    .number,
-    .footer,
-    .service-card p,
-    .prose p,
-    .contact p,
-    .credential-list p {
-      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-
-    .site-header {
-      padding: 20px 0;
     }
 
     .hero {
@@ -147,6 +150,9 @@
     .service-card {
       min-height: 270px;
       padding: 26px;
+      background: #fffaf2;
+      border-top: 3px solid #061f3da2;
+      box-shadow: 0 18px 44px rgba(6, 31, 61, 0.08);
     }
 
     .number {
@@ -216,6 +222,7 @@
       </span>
       <span class="brand-text">Lianor</span>
     </a>
+
     <nav class="nav" aria-label="Navigazione principale">
       <a href="#services">Servizi</a>
       <a href="#approach">Metodo</a>
@@ -227,10 +234,13 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Inglese pratico per hospitality e ristorazione</p>
+
         <h1>Formazione linguistica su misura per accogliere meglio gli ospiti internazionali.</h1>
+
         <p class="lead">
           Con base a Genova, Lianor aiuta strutture ricettive, ristoranti e team a contatto con il pubblico a gestire con più sicurezza le interazioni in inglese: accoglienza, richieste, procedure, reclami e comunicazione quotidiana con clienti stranieri.
         </p>
+
         <div class="hero-actions">
           <a class="button primary" href="mailto:info@lianor.it?subject=Richiesta%20informazioni%20Lianor">Richiedi informazioni</a>
           <a class="button secondary" href="#services">Scopri i percorsi</a>
@@ -239,6 +249,7 @@
 
       <aside class="hero-card" aria-label="Riepilogo Lianor">
         <p class="card-label">Aree di intervento</p>
+
         <ul>
           <li>Inglese per strutture ricettive</li>
           <li>Inglese per ristoranti e sala</li>
@@ -256,7 +267,9 @@
       <div class="grid three">
         <article class="service-card">
           <span class="number">01</span>
+
           <h3>Inglese per strutture ricettive</h3>
+
           <p>
             Percorsi pratici per hotel, B&B, residence e strutture extra-alberghiere: check-in, check-out, informazioni sui servizi, richieste degli ospiti, indicazioni e situazioni ricorrenti.
           </p>
@@ -264,7 +277,9 @@
 
         <article class="service-card">
           <span class="number">02</span>
+
           <h3>Inglese per ristoranti e sala</h3>
+
           <p>
             Formazione mirata per ristoranti, bar e team di sala: accoglienza, menù, allergie e intolleranze, prenotazioni, richieste particolari e interazioni con clientela internazionale.
           </p>
@@ -272,7 +287,9 @@
 
         <article class="service-card">
           <span class="number">03</span>
+
           <h3>Reclami, procedure e service recovery</h3>
+
           <p>
             Attività su misura per gestire conversazioni delicate: problemi con camere o tavoli, incomprensioni, lamentele, scuse, soluzioni alternative e comunicazione sotto pressione.
           </p>
@@ -285,10 +302,12 @@
         <p class="eyebrow">Il metodo</p>
         <h2>Lingua semplice. Situazioni vere. Risultati utilizzabili subito.</h2>
       </div>
+
       <div class="prose">
         <p>
           Il personale non ha bisogno di “sapere tutto l'inglese”. Ha bisogno di saper gestire con chiarezza, sicurezza e cortesia le situazioni che incontra davvero sul lavoro.
         </p>
+
         <p>
           Ogni percorso viene costruito intorno al contesto della struttura: tipo di clientela, mansioni del team, livello di partenza, procedure interne e interazioni più frequenti con ospiti internazionali.
         </p>
@@ -301,6 +320,7 @@
           Quando il servizio è internazionale, la lingua è parte dell’esperienza del cliente.
         </p>
       </div>
+
       <div class="credential-list" aria-label="Esperienza rilevante">
         <p>Un progetto fondato su esperienza in formazione linguistica, comunicazione interculturale, project management e coordinamento internazionale.</p>
         <p>Eroghiamo corsi a Genova e in Liguria.</p>
@@ -311,10 +331,12 @@
       <div>
         <p class="eyebrow">Contatti</p>
         <h2>Partiamo da una richiesta semplice.</h2>
+
         <p>
           Per informazioni, collaborazioni o una prima conversazione sul percorso più adatto alla tua struttura, scrivi a:
         </p>
       </div>
+
       <a class="email-link" href="mailto:info@lianor.it?subject=Richiesta%20informazioni%20Lianor">info@lianor.it</a>
     </section>
   </main>
@@ -329,3 +351,4 @@
   </script>
 </body>
 </html>
+
