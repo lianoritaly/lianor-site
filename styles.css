@@ -202,6 +202,10 @@ h3 {
   color: var(--ink);
 }
 
+.nav a {
+  white-space: nowrap;
+}
+
 .nav a:hover {
   color: var(--ink);
 }
@@ -584,18 +588,21 @@ h3 {
     min-width: 0;
     padding-top: 4px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 4px;
-    font-size: 0.76rem;
-    line-height: 1.2;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 3px;
+    font-size: clamp(0.68rem, 2.7vw, 0.78rem);
+    line-height: 1.15;
   }
 
   .nav a {
+    min-width: 0;
     min-height: 40px;
-    padding: 8px 4px;
+    padding: 8px 2px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
     text-align: center;
     border-radius: 999px;
     -webkit-tap-highlight-color: transparent;
@@ -773,14 +780,17 @@ h3 {
   }
 
   .nav {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 2px;
+    font-size: clamp(0.61rem, 2.75vw, 0.68rem);
   }
 
   .nav a {
+    min-width: 0;
     min-height: 38px;
-    justify-content: flex-start;
-    padding: 7px 10px;
+    padding: 7px 1px;
+    justify-content: center;
+    white-space: nowrap;
   }
 
   .hero {
