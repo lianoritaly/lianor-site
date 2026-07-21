@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lianor.it/sitemap.xml

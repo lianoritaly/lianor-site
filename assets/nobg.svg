@@ -4,9 +4,16 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="724.000000pt" height="695.000000pt" viewBox="0 0 724.000000 695.000000"
  preserveAspectRatio="xMidYMid meet">
+<defs>
+  <linearGradient id="lianorNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#041f3f"/>
+    <stop offset="58%" stop-color="#062b56"/>
+    <stop offset="100%" stop-color="#0b3a6e"/>
+  </linearGradient>
+</defs>
 
 <g transform="translate(0.000000,695.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+fill="url(#lianorNavy)" stroke="none">
 <path d="M3592 6781 c-23 -173 -90 -329 -228 -533 -136 -201 -293 -375 -549
 -606 -292 -264 -347 -316 -414 -396 -93 -110 -177 -241 -218 -342 -34 -84 -68
 -227 -59 -251 3 -7 18 -13 34 -13 98 0 296 -81 444 -181 88 -59 347 -303 335
