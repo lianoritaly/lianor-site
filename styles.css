@@ -593,7 +593,86 @@ main {
 .service-card.featured p {
   color: rgba(237, 240, 247, 0.74);
 }
+/* =================================
+   Clickable homepage service cards
+================================= */
 
+.home-page a.service-card {
+  cursor: pointer;
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease,
+    background-color 220ms ease;
+}
+
+.home-page a.service-card h3 {
+  transition: color 220ms ease;
+}
+
+.home-page a.service-card::before {
+  transition:
+    height 220ms ease,
+    opacity 220ms ease;
+}
+
+
+/* Light cards */
+
+.home-page a.service-card:not(.featured) {
+  background: rgba(255, 250, 242, 0.88);
+}
+
+@media (hover: hover) {
+
+  .home-page a.service-card:not(.featured):hover {
+    transform: translateY(-5px);
+    border-color: rgba(23, 63, 105, 0.34);
+    background: rgba(248, 245, 238, 0.98);
+    box-shadow: 0 22px 52px rgba(7, 27, 52, 0.14);
+  }
+
+  .home-page a.service-card:not(.featured):hover h3 {
+    color: var(--accent-2);
+  }
+
+
+  /* Dark featured card */
+
+  .home-page a.service-card.featured:hover {
+    transform: translateY(-5px);
+    border-color: rgba(199, 175, 210, 0.48);
+    background: #0b2b50;
+    box-shadow: 0 22px 52px rgba(7, 27, 52, 0.22);
+  }
+
+  .home-page a.service-card.featured:hover h3 {
+    color: var(--white);
+  }
+
+
+  /* Accent line */
+
+  .home-page a.service-card:hover::before {
+    height: 4px;
+    opacity: 1;
+  }
+}
+
+
+/* Keyboard navigation */
+
+.home-page a.service-card:focus-visible {
+  outline: 3px solid rgba(23, 63, 105, 0.30);
+  outline-offset: 4px;
+}
+
+
+/* Small physical response when clicked */
+
+.home-page a.service-card:active {
+  transform: translateY(-2px);
+}
 .step {
   min-height: 172px;
   padding: 22px;
