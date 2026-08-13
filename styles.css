@@ -1820,3 +1820,26 @@ main {
     border-radius: 22px;
   }
 }
+/* ================================
+   Mobile masthead overflow fix
+   Keeps the email button and menu fully inside the viewport.
+================================ */
+
+@media (max-width: 700px) {
+  .masthead-inner {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+  }
+
+  .brand,
+  .header-actions,
+  .header-email {
+    min-width: 0;
+  }
+
+  .header-actions {
+    gap: 0;
+  }
+
+  .header-email {
+    white-space: nowrap;
+  }
