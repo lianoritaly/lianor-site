@@ -1833,7 +1833,6 @@ main {
 
   .brand {
     min-width: 0;
-    overflow: hidden;
   }
 
   .header-actions {
