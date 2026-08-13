@@ -229,7 +229,7 @@ h3 {
 .brand-mark {
   width: 66px;
   height: 66px;
-  margin-block: -7px;
+  margin-block: 0px;
   padding: 3px;
   display: grid;
   place-items: center;
@@ -247,7 +247,7 @@ h3 {
   height: 100%;
   object-fit: contain;
   filter: none;
-  transform: none;
+  transform: scale(1.15);
   transform-origin: center;
 }
 
@@ -368,7 +368,10 @@ h3 {
 main {
   display: block;
 }
-
+.home-page main,
+.hospitality-page main {
+  overflow-x: clip;
+}
 .page-width,
 .hero,
 .section,
@@ -1208,7 +1211,7 @@ main {
   .brand-mark {
     width: 58px;
     height: 58px;
-    margin-block: -6px;
+    margin-block: 0px;
   }
 
   .brand-name {
@@ -1376,7 +1379,7 @@ main {
   .brand-mark {
     width: 52px;
     height: 52px;
-    margin-block: -6px;
+    margin-block: 0px;
     padding: 2px;
   }
 
@@ -1479,7 +1482,7 @@ main {
   .brand-mark {
     width: 46px;
     height: 46px;
-    margin-block: -5px;
+    margin-block: 0px;
   }
 
   .brand-name {
