@@ -1828,18 +1828,30 @@ main {
 @media (max-width: 700px) {
   .masthead-inner {
     grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 6px;
   }
 
-  .brand,
-  .header-actions,
-  .header-email {
+  .brand {
     min-width: 0;
+    overflow: hidden;
   }
 
   .header-actions {
+    min-width: 0;
+    max-width: 112px;
     gap: 0;
   }
 
   .header-email {
+    min-width: 0;
+    max-width: 112px;
+    padding: 8px 10px;
+    overflow: hidden;
     white-space: nowrap;
+    text-overflow: ellipsis;
   }
+
+  .menu-toggle {
+    flex-shrink: 0;
+  }
+}
