@@ -48,6 +48,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 24px);
+  overflow-x: hidden;
 }
 
 body {
@@ -238,6 +239,7 @@ h3 {
   border-color: var(--paper);
   background: var(--paper);
   box-shadow: 0 7px 20px rgba(0, 0, 0, 0.16);
+  flex: 0 0 auto;
 }
 
 .brand-mark img {
@@ -245,7 +247,7 @@ h3 {
   height: 100%;
   object-fit: contain;
   filter: none;
-  transform: scale(1.15);
+  transform: none;
   transform-origin: center;
 }
 
