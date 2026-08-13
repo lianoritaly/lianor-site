@@ -1827,31 +1827,37 @@ main {
 
 @media (max-width: 700px) {
   .masthead-inner {
-    grid-template-columns: minmax(0, 1fr) auto auto;
-    gap: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
 
-  .brand {
+  .masthead-inner > .brand {
+    flex: 1 1 auto;
     min-width: 0;
     overflow: hidden;
   }
 
-  .header-actions {
+  /* Pages where the email is directly inside the masthead */
+  .masthead-inner > .header-email {
+    flex: 0 1 auto;
     min-width: 0;
     max-width: 112px;
-    gap: 0;
-  }
-
-  .header-email {
-    min-width: 0;
-    max-width: 112px;
-    padding: 8px 10px;
+    margin-left: auto;
+    padding-inline: 10px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
 
-  .menu-toggle {
-    flex-shrink: 0;
+  /* Pages using the newer header-actions wrapper */
+  .masthead-inner > .header-actions {
+    flex: 0 0 auto;
+    min-width: 0;
+    margin-left: auto;
+  }
+
+  .masthead-inner > .menu-toggle {
+    flex: 0 0 auto;
   }
 }
