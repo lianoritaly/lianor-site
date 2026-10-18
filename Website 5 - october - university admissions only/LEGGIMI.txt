@@ -1,0 +1,1 @@
+Pacchetto completo per VS Code e Live Server. Foto Results sostituita con una vista verticale del Kings College di Cambridge. Nessuna didascalia sotto le foto di Results e Hospitality English, in entrambe le lingue. Didascalia di Giulia conservata. Fonti in FONTI-FOTO.md. Verificati desktop e mobile.
