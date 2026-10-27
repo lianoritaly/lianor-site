@@ -28,13 +28,11 @@ Foto locali con bordi e ombre del componente della foto di Giulia. Proporzioni o
 
 ## Homepage Cambridge
 
-- File: assets/cambridge-evening-online.jpg.
-- Soggetto: giovane uomo con camicia sotto il maglione, cuffie e portatile in uno studio domestico.
-- Autore: Vitaly Gariev / Pexels.
-- Fonte: https://www.pexels.com/photo/young-man-working-remotely-with-laptop-and-headphones-36713193/
-- Immagine: https://images.pexels.com/photos/36713193/pexels-photo-36713193/free-photo-of-young-man-working-remotely-with-laptop-and-headphones.jpeg?auto=compress&dpr=1&h=750&w=1260
-- Licenza: https://www.pexels.com/license/ (consultata il 27 ottobre 2026).
-- Foto illustrativa, non presentata come un insegnante, partecipante reale o testimonianza Lianor. Inquadratura completa. Stesso file nelle homepage italiana e inglese.
+- File utilizzato: assets/cambridge-online-stock.jpg.
+- Origine: foto stock fornita dall’utente nella cartella Website 5.
+- Nome del file originale: istockphoto-1074647448-612x612.jpg.
+- Soggetto: uomo con auricolari in videochiamata davanti al portatile, in un ambiente domestico.
+- Dimensioni: 449 × 408 pixel. Stesso file nelle homepage italiana e inglese, con inquadratura completa e proporzioni originali.
 
 ## Riferimento per il DELTA
 

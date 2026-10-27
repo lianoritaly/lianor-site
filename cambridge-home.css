@@ -14,3 +14,11 @@
 @media(max-width:800px) {
  .cambridge-home .hero-grid { grid-template-columns:1fr; }
 }
+
+/* Keep the supplied near-square photograph complete and at a natural size. */
+.cambridge-home .hero .editorial-photo { width:100%;max-width:440px;justify-self:end; }
+.cambridge-home .course-inquiry { font-size:14px;line-height:1.4;padding:9px 16px; }
+.cambridge-home .course-inquiry:hover { background:var(--accent-2); }
+@media(max-width:800px) {
+ .cambridge-home .hero .editorial-photo { justify-self:center; }
+}
