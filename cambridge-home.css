@@ -1,0 +1,10 @@
+/* Homepage layout adjustments; the original shared stylesheet is unchanged. */
+.cambridge-home .hero { padding-bottom:20px; }
+.cambridge-home #exams { padding-top:18px; }
+.cambridge-home #exams .section-head { grid-template-columns:1fr;gap:12px; }
+.cambridge-home #exams .section-head>p { max-width:none; }
+.cambridge-home #courses>.section-description { width:100%;max-width:none; }
+@media(max-width:800px) {
+ .cambridge-home .hero { padding-bottom:16px; }
+ .cambridge-home #exams { padding-top:16px; }
+}
