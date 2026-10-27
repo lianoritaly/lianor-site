@@ -11,9 +11,6 @@
 
 /* The same complete-photo treatment used on the other service pages. */
 .cambridge-home .hero-grid { grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); }
-.cambridge-home .teacher-note { display:grid;grid-template-columns:minmax(0,.35fr) minmax(0,1.65fr);align-items:center;gap:24px;margin-top:24px;padding:22px 26px; }
-.cambridge-home .teacher-note h2 { margin-bottom:0; }
 @media(max-width:800px) {
- .cambridge-home .hero-grid,.cambridge-home .teacher-note { grid-template-columns:1fr; }
- .cambridge-home .teacher-note { gap:12px;padding:22px; }
+ .cambridge-home .hero-grid { grid-template-columns:1fr; }
 }

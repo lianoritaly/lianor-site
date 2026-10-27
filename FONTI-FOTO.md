@@ -28,13 +28,13 @@ Foto locali con bordi e ombre del componente della foto di Giulia. Proporzioni o
 
 ## Homepage Cambridge
 
-- File: assets/cambridge-online-professional.jpg.
-- Soggetto: giovane adulta con cuffie, portatile e quaderno, in una scena di studio online.
-- Autore: Julio Lopez / Pexels.
-- Fonte: https://www.pexels.com/photo/focused-young-woman-studying-with-laptop-34225002/
-- Immagine: https://images.pexels.com/photos/34225002/pexels-photo-34225002/free-photo-of-focused-young-woman-studying-with-laptop.jpeg?auto=compress&dpr=1&h=750&w=1260
+- File: assets/cambridge-professional-man.jpg.
+- Soggetto: uomo adulto in camicia e cravatta che prende appunti davanti al portatile.
+- Autore: AlphaTradeZone / Pexels.
+- Fonte: https://www.pexels.com/photo/a-man-sitting-at-the-table-7316663/
+- Immagine: https://images.pexels.com/photos/7316663/pexels-photo-7316663.jpeg?auto=compress&dpr=1&h=750&w=1260
 - Licenza: https://www.pexels.com/license/ (consultata il 27 ottobre 2026).
-- Foto illustrativa, non presentata come una partecipante ai corsi o come una testimonianza. Inquadratura completa, senza ritagli.
+- Foto illustrativa di un adulto che segue un’attività al computer e prende appunti, non presentata come insegnante, partecipante reale o testimonianza Lianor. Inquadratura completa.
 
 ## Riferimento per il DELTA
 
