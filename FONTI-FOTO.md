@@ -25,3 +25,17 @@ La scena mostra un’interazione tra persone, collegandosi direttamente alle con
 ## Inserimento
 
 Foto locali con bordi e ombre del componente della foto di Giulia. Proporzioni originali senza tagli: Results e Hospitality orizzontali. Nessuna didascalia visibile sotto queste due immagini; fonti e crediti restano qui. La didascalia identificativa di Giulia resta invariata.
+
+## Homepage Cambridge
+
+- File: assets/cambridge-online-professional.jpg.
+- Soggetto: giovane adulta con cuffie, portatile e quaderno, in una scena di studio online.
+- Autore: Julio Lopez / Pexels.
+- Fonte: https://www.pexels.com/photo/focused-young-woman-studying-with-laptop-34225002/
+- Immagine: https://images.pexels.com/photos/34225002/pexels-photo-34225002/free-photo-of-focused-young-woman-studying-with-laptop.jpeg?auto=compress&dpr=1&h=750&w=1260
+- Licenza: https://www.pexels.com/license/ (consultata il 27 ottobre 2026).
+- Foto illustrativa, non presentata come una partecipante ai corsi o come una testimonianza. Inquadratura completa, senza ritagli.
+
+## Riferimento per il DELTA
+
+La descrizione della qualifica si basa sulla pagina ufficiale Cambridge English: https://www.cambridgeenglish.org/educators-organisations/professional-development/teaching-qualifications/delta/ (consultata il 27 ottobre 2026).
